@@ -16,3 +16,8 @@ Receitas de coisas disponíveis por esse repositório.
     1. Escolher um único **detalhe** de cada vez
     1. Executar `./bin/insights-data-sanitization.sh`
     1. Executar `./bin/git-push.sh`
+
+## Executar `github-action` localmente
+
+1. `brew install nektos/tap/act`
+1. `act`
