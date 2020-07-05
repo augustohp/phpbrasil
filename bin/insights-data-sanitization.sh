@@ -1,5 +1,4 @@
 #!/usr/bin/env sh
-# vim: set ft=sh ai ts=2 sw=2 nowrap:
 #
 # Normalizes "Insights" downloaded from a group.
 
@@ -21,7 +20,7 @@ do
 	case "${csv_basename}" in
 		*Growth*|*Engagement*|*Members*)
 			mv "${csv}" "${DATA}/${csv_basename}"
-			;; 
+			;;
 		*)
 			echo "Ignoring '${csv}'." >&2
 			;;
