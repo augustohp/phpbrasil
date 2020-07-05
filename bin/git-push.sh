@@ -1,5 +1,4 @@
 #!/usr/bin/env sh
-# vim: set ft=sh ai ts=2 sw=2 nowrap:
 #
 # Normalizes "Insights" downloaded from a group.
 
@@ -22,7 +21,7 @@ then
 fi
 
 if [ -z "$(git config user.email)" ]
-then 
+then
 	echo "Error: git user.email is undefined." >&2
 	exit 3
 fi
